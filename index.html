@@ -12,6 +12,10 @@
             text-decoration:line-through;
             color:gray;
         }
+        .container {
+            margin-top: 20px;
+        }
+        
    </style> 
 
    <script>
@@ -71,7 +75,7 @@
 
 <body>
     <div id="app" class="container">
-        <h2>ToDoリスト </h2>
+        <h2>ToDoリスト</h2>
         <p>
             全{{todos.length}}件中{{remaining}}件未完了
             <button v-on:click="archive" class="btn btn-danger btn-sm">完了したものを削除</button>
